@@ -26,3 +26,19 @@ int main() {
 */
 
 // Your JavaScript code here:
+
+class Student {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+let students = Array(3);
+students[0] = new Student("Alice", 20);
+students[1] = new Student("Bob", 22);
+students[2] = new Student("Charlie", 21);
+
+for (el of students) {
+    console.log(el.name);
+}
