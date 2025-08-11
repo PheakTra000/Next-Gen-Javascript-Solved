@@ -10,12 +10,12 @@ class Person {
     }
 }
 
-let person = new Array(5);
+let size = 2;
+
+let person = new Array(size);
 
 person[0] = new Person('Tra', 18, 'cybersecurity');
 person[1] = new Person('Hong', 19, 'SE');
-
-let size = person.siz;
 
 for (let i = 0; i < size; i++) {
     console.log(person[i])
