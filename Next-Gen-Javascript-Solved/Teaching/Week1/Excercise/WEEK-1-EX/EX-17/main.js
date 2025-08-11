@@ -16,3 +16,13 @@ int main() {
 */
 
 // Your JavaScript code here:
+
+let numCompare = 50;
+
+let arr = [10,55,63,20,90];
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > numCompare) {
+        console.log(arr[i]);
+    }
+}
+
